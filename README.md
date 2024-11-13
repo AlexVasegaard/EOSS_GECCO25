@@ -35,7 +35,8 @@ Thereby a maximum of a(t) images per time unit. Here, a(t) is equal to one for a
 ```
 This constraint states that a maximum of b(r) images per request can be acquired. Note, for larger image requests than the swath of the satellite, we assume the acquisitions can be completed by acquiring the same request b(r) amount of times, where that corresponds to the width of the image request divided by the swath capabilities of the satellite. Here the B is a binary matrix with dimensions R times D, where R is the number of requests that are reachable by any other satellites and thus considered in the EOSS.
 
-https://github.com/AlexVasegaard/EOSS_GECCO25/blob/main/html_output2.png
+![Alt text](https://github.com/AlexVasegaard/EOSS_GECCO25/blob/main/html_output2.png)
+Figure 1: A graphical representation of a solution for the EOSS problem.
 
 ### Phases
 The competition consists of two phases:
